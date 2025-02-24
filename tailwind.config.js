@@ -1,3 +1,5 @@
+import { ColorPickerValueText } from '@chakra-ui/react';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -24,8 +26,12 @@ export default {
           light:"#E7F0FD",
           dark:"#141E2E",
         },
-      },
+        ColorText: {
+          light:"#676A79",
+          dark:"#676A79",
+        },
     },
   },
   plugins: [],
+}
 }

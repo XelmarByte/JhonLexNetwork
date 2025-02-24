@@ -1,5 +1,8 @@
 import ThemeSwitcher from "../byME/ThemeSwitcher";
 import Icon from "../byME/Icon";
+import Demodropdow from "../byME/Pages-dropdn";
+
+
 
 
 const Header = () => {
@@ -19,7 +22,9 @@ const Header = () => {
     
     <div className="flex space-x-4 items-center">
       <div className="w-8 h-8 bg-red-500"></div>
-  
+    
+
+      <Demodropdow/>
       <ThemeSwitcher />
     </div>
     </header>
